@@ -2,10 +2,14 @@
 # input: team names, captains
 # return: dict of captains as keys and team names as values
 # method:
-#   1. team names of captains and team names
-#   2. jotokkhon na argument length 0 hocche:
-#       2.1. recursive call of same method with both params and dict and assign it to team name generator var
-#   3. return  team name generator var
+#   1. jotokkhon na 1st argument er length 0 theke bor hoy:
+#       2. get random captain name from captains list
+#       3. get random team name from teams list
+#       4. assign team name to captain as dict
+#       5. captain name list theke captain name remove
+#       6. team name list theke team name remove
+#       7. recursive call of same method with the captains names and team names
+#   8. return  team name generator var
 from random import randint
 captainsToTeamNames = {}
 def getCaptainsTeamNames(*args):
