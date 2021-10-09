@@ -61,4 +61,4 @@ def assignTeamNameToCaptain(captainName, teamName, captainToTeamName):
 # print(getRandomCaptainName(["Ayon","Rashed","Rupom"]))
 # print(getRandomTeamName(["A","B","C"]))
 # print(assignTeamNameToCaptain("Ayon","A",{}))
-print(getCaptainsTeamNames(["Ayon","Rashed","Rupom","Abu Sohel","Zahedul","Moinul","Baad den","Shajal","Munna","Noor e alam","Sami","Noman","Rezwan","shaheen"],["A","B","C","D","E","F","G","H","I","J","K","L","M","N"]))
+print(getCaptainsTeamNames(["Ayon","Rashed","Rupom","Abu Sohel","Zahedul","Moinul","Shantanu","Shajal","Munna","Noor e alam","Sami","Noman","Rezwan","shaheen"],["ATX Flyers", "ATX Spikers", "ATX Smashers", "ATX Blazers ", "ATX Tornadoes", "ATX Typhoons", "ATX Blasters", "ATX Raiders", "ATX Jaguars", "ATX Eagles", "ATX Falcons", "ATX Hawks", "ATX Vipers", "ATX Spiders"]))
