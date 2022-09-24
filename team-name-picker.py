@@ -42,7 +42,6 @@ def getRandomCaptainName(captainNames):
 #   2. return captains name
 def getRandomTeamName(teamNames):
     while(len(teamNames)>0):
-    # print(randint(1,10))
         randomTeamName = teamNames[randint(0,len(teamNames)-1)]
         return randomTeamName
         
@@ -61,4 +60,21 @@ def assignTeamNameToCaptain(captainName, teamName, captainToTeamName):
 # print(getRandomCaptainName(["Ayon","Rashed","Rupom"]))
 # print(getRandomTeamName(["A","B","C"]))
 # print(assignTeamNameToCaptain("Ayon","A",{}))
-print(getCaptainsTeamNames(["Ayon","Rashed","Rupom","Abu Sohel","Zahedul","Moinul","Shantanu","Shajal","Munna","Noor e alam","Sami","Noman","Rezwan","shaheen"],["ATX Flyers", "ATX Spikers", "ATX Smashers", "ATX Blazers ", "ATX Tornadoes", "ATX Typhoons", "ATX Blasters", "ATX Raiders", "ATX Jaguars", "ATX Eagles", "ATX Falcons", "ATX Hawks", "ATX Vipers", "ATX Spiders"]))
+print(getCaptainsTeamNames(["Mona","Rashed","Rupom","Abu Sohel","Zahedul","Moinul","Omar","Shajal","Munna","Nafis","Sami","Mashu","Rezwan","Shaheen", "Manar", "Polin"],
+["Austin Spikers",
+"Austin Crushers",
+"Austin Hitters",
+"Austin Blockers",
+"Austin Tornadoes",
+"Austin Twisters",
+"Austin Typhoons",
+"Austin Blasters",
+"Austin Dynamites",
+"Austin Challengers",
+"Austin Raiders",
+"Austin Jaguars",
+"Austin Eagles",
+"Austin Falcons",
+"Austin Wildcats",
+"Austin Hawks"
+]))
